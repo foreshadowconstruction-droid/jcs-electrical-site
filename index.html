@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WF25S3V5');</script>
+<!-- End Google Tag Manager -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JCS Electrical | Licensed & Insured Electricians in Seattle, WA</title>
+  <meta name="description" content="JCS Electrical is a family-owned electrical company keeping local homes safe and powered in King, Snohomish & Pierce Counties. Upfront pricing, same-day service & 24/7 emergency repairs.">
+  <link rel="stylesheet" href="/css/styles.css?v=2">
+  <link rel="stylesheet" href="css/styles.css?v=2">
+  <style>
+    /* Critical Reviews Slider Layout & Full Component Fallbacks */
+    .reviews-section {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      overflow: hidden;
+      position: relative;
+    }
+    .reviews-slider-wrapper {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      margin-top: 40px;
+      mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
+      -webkit-mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
+    }
+    .reviews-slider-track {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      gap: 24px !important;
+      width: max-content !important;
+      min-width: max-content !important;
+      animation: infiniteScroll 55s linear infinite !important;
+      animation-play-state: running !important;
+      will-change: transform;
+    }
+    .reviews-slider-track:hover,
+    .reviews-slider-track *:hover {
+      animation-play-state: running !important;
+    }
+    @keyframes infiniteScroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .google-review-card {
+      width: 380px !important;
+      min-width: 380px !important;
+      max-width: 380px !important;
+      flex-shrink: 0 !important;
+      background: #1c1f26 !important;
+      border: 1px solid rgba(255, 255, 255, 0.1) !important;
+      border-radius: 12px !important;
+      padding: 24px !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 12px !important;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
+      text-align: left !important;
+      box-sizing: border-box !important;
+    }
+    .gr-header {
+      display: flex !important;
+      align-items: flex-start !important;
+      justify-content: space-between !important;
+      gap: 12px !important;
+      width: 100% !important;
+    }
+    .gr-author-info {
+      display: flex !important;
+      align-items: center !important;
+      gap: 12px !important;
+    }
+    .gr-avatar {
+      width: 42px !important;
+      height: 42px !important;
+      border-radius: 50% !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      font-weight: 700 !important;
+      font-size: 16px !important;
+      color: #ffffff !important;
+      flex-shrink: 0 !important;
+    }
+    .gr-avatar-dark { background: #2a2f3d !important; color: #d9c95e !important; border: 1px solid rgba(255, 255, 255, 0.1) !important; }
+    .gr-avatar-slate { background: #546e7a !important; color: #ffffff !important; }
+    .gr-avatar-blue { background: #0288d1 !important; color: #ffffff !important; }
+    .gr-avatar-green { background: #2e7d32 !important; color: #ffffff !important; }
+    .gr-avatar-purple { background: #7b1fa2 !important; color: #ffffff !important; }
+    .gr-avatar-magenta { background: #c2185b !important; color: #ffffff !important; }
+    .gr-avatar-teal { background: #00796b !important; color: #ffffff !important; }
+
+    .gr-author-name {
+      font-weight: 700 !important;
+      font-size: 15px !important;
+      color: #ffffff !important;
+      display: flex !important;
+      align-items: center !important;
+      gap: 4px !important;
+      margin: 0 !important;
+      line-height: 1.2 !important;
+    }
+    .gr-ext-icon {
+      font-size: 12px !important;
+      color: #94a3b8 !important;
+      display: inline-block !important;
+    }
+    .gr-author-subtext {
+      font-size: 12px !important;
+      color: #94a3b8 !important;
+      margin-top: 2px !important;
+      line-height: 1.3 !important;
+    }
+    .gr-google-logo {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 6px !important;
+      background: rgba(255, 255, 255, 0.04) !important;
+      border: 1px solid rgba(255, 255, 255, 0.08) !important;
+      border-radius: 6px !important;
+      flex-shrink: 0 !important;
+    }
+    .gr-rating-row {
+      display: flex !important;
+      align-items: center !important;
+      gap: 10px !important;
+    }
+    .gr-stars {
+      color: #f59e0b !important;
+      font-size: 15px !important;
+      letter-spacing: 2px !important;
+      line-height: 1 !important;
+    }
+    .gr-time {
+      font-size: 13px !important;
+      color: #94a3b8 !important;
+    }
+    .gr-review-title {
+      font-weight: 700 !important;
+      font-size: 15px !important;
+      color: #ffffff !important;
+      margin: 0 !important;
+    }
+    .gr-tag-pill {
+      display: inline-block !important;
+      font-size: 12px !important;
+      font-weight: 600 !important;
+      color: #cbd5e1 !important;
+      background: rgba(255, 255, 255, 0.06) !important;
+      border: 1px solid rgba(255, 255, 255, 0.1) !important;
+      border-radius: 12px !important;
+      padding: 4px 10px !important;
+      align-self: flex-start !important;
+    }
+    .gr-review-text {
+      font-size: 14px !important;
+      line-height: 1.55 !important;
+      color: #cbd5e1 !important;
+      margin: 0 !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WF25S3V5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <!-- 1. EMERGENCY TOP BANNER -->
+  <div class="emergency-banner">
+    <span class="emergency-dot"></span>
+    <span>24/7 EMERGENCY SERVICE · CALL NOW: <a href="tel:+14255521502" style="color:inherit; text-decoration:underline;">(425) 552-1502</a></span>
+  </div>
+
+  <!-- 2. SITE HEADER & NAVIGATION -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <span class="logo-icon"></span>
+        JCS ELECTRICAL
+      </a>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <a href="tel:+14255521502" class="phone-link">(425) 552-1502</a>
+        <a href="#contact" class="btn-primary">Get Your Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. HERO SECTION -->
+  <section id="hero" class="hero-section container">
+    <div>
+      <div class="heading-tag">
+        <div class="heading-tag-line"></div>
+        <span class="heading-tag-text">Licensed &amp; Insured Electricians</span>
+      </div>
+      <h1 class="hero-headline">
+        Enjoy Safe, Hassle-Free Power<br>With Upfront Pricing.
+      </h1>
+      <p class="hero-description">
+        No surprise fees, no shortcuts. JCS Electrical keeps your family safe and powered with guaranteed craftsmanship across King &amp; Snohomish Counties.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#contact" class="btn-primary">Get Your Free Quote</a>
+        <a href="tel:+14255521502" class="btn-secondary">Call (425) 552-1502</a>
+      </div>
+      <div class="trust-badges-inline">
+        <div class="badge-item"><span class="badge-check">✓</span> Licensed &amp; Insured</div>
+        <div class="badge-item"><span class="badge-check">✓</span> Family-Owned</div>
+        <div class="badge-item"><span class="badge-check">✓</span> Upfront Pricing</div>
+        <div class="badge-item"><span class="badge-check">✓</span> Same-Day Service</div>
+      </div>
+    </div>
+    <div class="hero-image-wrapper">
+      <img src="assets/images/img_2.webp" alt="JCS Electrical professional electrician on job site" loading="eager">
+    </div>
+  </section>
+
+  <!-- 4. STATS BAR -->
+  <section class="stats-section">
+    <div class="container stats-grid">
+      <div>
+        <div class="stat-value">100%</div>
+        <div class="stat-label">Family-Owned</div>
+      </div>
+      <div>
+        <div class="stat-value">5.0 ★</div>
+        <div class="stat-label">Average Rating</div>
+      </div>
+      <div>
+        <div class="stat-value">1,200+</div>
+        <div class="stat-label">Jobs Completed</div>
+      </div>
+      <div>
+        <div class="stat-value">24/7</div>
+        <div class="stat-label">Emergency Line</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4.5 OUR WORK / RECENT JOBS GALLERY SECTION -->
+  <section id="work" class="gallery-section">
+    <div class="container">
+      <div class="gallery-header">
+        <div class="heading-tag" style="justify-content: center;">
+          <div class="heading-tag-line"></div>
+          <span class="heading-tag-text">Our Work</span>
+        </div>
+        <h2 class="section-title">Recent jobs, real results</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="assets/gallery/gallery-1.jpg" alt="JCS Electrical Service Panel Installation" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery/gallery-2.webp" alt="JCS Electrical Wiring &amp; Outlet Testing" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery/gallery-3.jpg" alt="JCS Electrical Exterior Meter &amp; Panel Upgrade" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery/gallery-4.jpg" alt="JCS Electrical Home Electrical Panel &amp; Disconnect" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery/gallery-5.jpg" alt="JCS Electrical Backup Generator Installation" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery/gallery-6.webp" alt="JCS Electrical Breaker Box Wiring Upgrade" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery/gallery-7.webp" alt="JCS Electrician Installing Exterior Electrical Box" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery/gallery-8.jpg" alt="JCS Electrical Upgraded Main Circuit Breaker Panel" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. ABOUT / FOUNDER SECTION -->
+  <section id="about" class="container about-section">
+    <div class="about-image-wrapper">
+      <img src="assets/images/img_1.webp" alt="Justin, Founder of JCS Electrical" loading="lazy">
+    </div>
+    <div>
+      <div class="heading-tag">
+        <div class="heading-tag-line"></div>
+        <span class="heading-tag-text">Family-Owned &amp; Local</span>
+      </div>
+      <h2 class="section-title" style="margin-bottom: 20px;">Meet Justin, Founder of JCS Electrical</h2>
+      <p class="about-paragraph">
+        At JCS Electrical, we're more than just an electrical repair company. We take deep pride in our work to ensure your home is up to code and getting power exactly where you need it.
+      </p>
+      <p class="about-paragraph">
+        Justin and our team of local electricians take the time to care and get any job done right, from residential to commercial. If you need an electrician in the Greater Seattle area, we're proud to call your neighborhood home too.
+      </p>
+    </div>
+  </section>
+
+  <!-- 6. SERVICES SECTION -->
+  <section id="services" class="container services-section">
+    <div class="services-header">
+      <div class="heading-tag" style="justify-content: center;">
+        <div class="heading-tag-line"></div>
+        <span class="heading-tag-text">What We Do</span>
+      </div>
+      <h2 class="section-title">Services built around your home</h2>
+    </div>
+
+    <div class="services-grid">
+      <!-- Service 1 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="3" width="10" height="18" rx="1.5"></rect><circle cx="10.5" cy="9" r="1"></circle><circle cx="13.5" cy="9" r="1"></circle><path d="M9 21v1M15 21v1"></path></svg>
+        </div>
+        <h3 class="service-title">Residential Wiring &amp; Repairs</h3>
+        <p class="service-desc">Outlets, switches, rewiring, and troubleshooting for homes of any age.</p>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="1.5"></rect><line x1="8" y1="8" x2="16" y2="8"></line><line x1="8" y1="12" x2="16" y2="12"></line><line x1="8" y1="16" x2="12" y2="16"></line></svg>
+        </div>
+        <h3 class="service-title">Panel Upgrades</h3>
+        <p class="service-desc">Safe, code-compliant panel replacements and service upgrades.</p>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17V9a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8"></path><path d="M4 17h16"></path><path d="M9 17v3M15 17v3"></path><path d="M12 5V3"></path><path d="M14 11l-3 3h2l-1 3 3-3h-2z"></path></svg>
+        </div>
+        <h3 class="service-title">EV Charger Install</h3>
+        <p class="service-desc">Fast, professional Level 2 charger installs for any home garage.</p>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"></path><path d="M10 21h4"></path><path d="M12 3a6 6 0 0 0-4 10.5c.6.6 1 1.5 1 2.5h6c0-1 .4-1.9 1-2.5A6 6 0 0 0 12 3Z"></path></svg>
+        </div>
+        <h3 class="service-title">Lighting Installation</h3>
+        <p class="service-desc">Indoor, outdoor, and accent lighting installed cleanly and correctly.</p>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+        </div>
+        <h3 class="service-title">Emergency Repairs</h3>
+        <p class="service-desc">24/7 fast response for outages, burning smells, or tripped breakers.</p>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5v14"></path><circle cx="12" cy="12" r="9"></circle></svg>
+        </div>
+        <h3 class="service-title">Generator Installation</h3>
+        <p class="service-desc">Backup power solutions to keep your family safe during storms.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. WHY CHOOSE US & REVIEWS SECTION -->
+  <section id="reviews" class="why-section">
+    <div class="container">
+      
+      <!-- Why Choose Us Grid -->
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-number">01</div>
+          <h3 class="why-title">Upfront Pricing</h3>
+          <p class="why-desc">You'll know the exact cost before work starts, zero surprise fees or hidden charges.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number">02</div>
+          <h3 class="why-title">Licensed Electricians</h3>
+          <p class="why-desc">Fully licensed, bonded, and insured pros who treat your home like their own.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number">03</div>
+          <h3 class="why-title">Guaranteed Work</h3>
+          <p class="why-desc">We stand behind every repair and install. If it isn't right, we fix it, period.</p>
+        </div>
+      </div>
+
+  <!-- 7. REVIEWS SECTION (INFINITE SCROLLING GOOGLE REVIEWS SLIDER) -->
+  <section id="reviews" class="reviews-section">
+    <div class="container">
+      <div class="reviews-header" style="text-align: center;">
+        <div class="heading-tag" style="justify-content: center;">
+          <div class="heading-tag-line"></div>
+          <span class="heading-tag-text">GOOGLE REVIEWS</span>
+        </div>
+        <h2 class="section-title">What your neighbors say</h2>
+      </div>
+    </div>
+
+    <div class="reviews-slider-wrapper">
+      <div class="reviews-slider-track">
+        <!-- FIRST SET OF 10 GOOGLE REVIEWS -->
+        <div class="google-review-card">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-dark">DS</div>
+              <div>
+                <div class="gr-author-name">Daniel Savchik <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">Local Guide • 23 reviews • 6 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo" aria-label="Google Review">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">28 weeks ago</span>
+          </div>
+          <div class="gr-review-title">Great price</div>
+          <p class="gr-review-text">Justin knocked it out of the park on my Tesla charger install. Super quick to respond, easy to communicate with, and showed up ready to get it done right. The whole process was smooth, clean work, no shortcuts, and everything looks great. You can tell he knows what he’s doing.</p>
+        </div>
+
+        <div class="google-review-card">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-slate">A</div>
+              <div>
+                <div class="gr-author-name">Alex Murray <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">3 reviews • 0 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo" aria-label="Google Review">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">39 weeks ago</span>
+          </div>
+          <div class="gr-tag-pill">Great price • $800–1,000</div>
+          <p class="gr-review-text">JCS electrical was fantastic to work with. They are super responsive, everything was completed quick and they saved me lots of money offering different solutions to my issues. I would highly recommend them and I will gladly go to them again for any work I need done in the future.</p>
+        </div>
+
+        <div class="google-review-card">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-dark">MD</div>
+              <div>
+                <div class="gr-author-name">Manny Dunham <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">3 reviews • 0 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo" aria-label="Google Review">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">46 weeks ago</span>
+          </div>
+          <div class="gr-tag-pill">Reasonable price • $2,000+</div>
+          <p class="gr-review-text">Fast reliable work. Definitely a I’ll use them again.</p>
+        </div>
+
+        <div class="google-review-card">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-blue">L</div>
+              <div>
+                <div class="gr-author-name">Laura Davis <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">5 reviews • 0 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo" aria-label="Google Review">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">49 weeks ago</span>
+          </div>
+          <p class="gr-review-text">Khalid and Malachi were awesome, professional and did a great job repairing my electrical issue !</p>
+        </div>
+
+        <div class="google-review-card">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-green">E</div>
+              <div>
+                <div class="gr-author-name">Eddie Sanchez <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">3 reviews • 6 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo" aria-label="Google Review">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">Jul 13, 2025</span>
+          </div>
+          <p class="gr-review-text">I’ve worked with JCS Electric since the early days, and the quality of their work has remained solid across every project. They’re dependable, efficient, and consistently deliver clean, professional electrical installations that meet code and hold up over time.</p>
+        </div>
+
+        <div class="google-review-card">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-dark">AJ</div>
+              <div>
+                <div class="gr-author-name">ashish jain <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">Local Guide • 20 reviews • 0 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo" aria-label="Google Review">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">Jun 6, 2025</span>
+          </div>
+          <div class="gr-tag-pill">Reasonable price</div>
+          <p class="gr-review-text">I recently call JCS to fix a switch in one of my bathroom. I was helped by Dustin who was thorough professional. He understood the problem, explained it very clearly and then properly fixed it. Whole process of scheduling, getting someone to help was very smooth. Best part is that JCS have an AI enabled automated system to answer their call which works really well.</p>
+        </div>
+
+        <div class="google-review-card">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-purple">m</div>
+              <div>
+                <div class="gr-author-name">mike7great <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">5 reviews • 0 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo" aria-label="Google Review">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">Apr 27, 2025</span>
+          </div>
+          <p class="gr-review-text">They do things neat and are very knowledgeable. They explained all their actions, so I felt confidence in their job of setting up and wiring light fixtures in a bedroom. Would recommend them to a friend.</p>
+        </div>
+
+        <div class="google-review-card">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-slate">AO</div>
+              <div>
+                <div class="gr-author-name">Amy O'Neill <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">8 reviews • 1 photo</div>
+              </div>
+            </div>
+            <div class="gr-google-logo" aria-label="Google Review">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">Apr 10, 2025</span>
+          </div>
+          <p class="gr-review-text">We hired JCS Electrical to install a whole home generator after losing power for a week following the last bomb cyclone. Justin provided a comprehensive report with generator options based on our needs. He was very communicative and professional throughout the entire process and handled all the necessary permits and contractors. I would highly recommend JCS Electrical and plan to hire them again!</p>
+        </div>
+
+        <div class="google-review-card">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-teal">D</div>
+              <div>
+                <div class="gr-author-name">Devanshu Singh <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">2 reviews • 3 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo" aria-label="Google Review">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">Apr 5, 2025</span>
+          </div>
+          <p class="gr-review-text">Such a pleasant and professional experience. From now on, JCS electrical will be my go to service for my beloved home. Couldn’t entrust a better team with this responsibility.</p>
+        </div>
+
+        <div class="google-review-card">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-magenta">C</div>
+              <div>
+                <div class="gr-author-name">Chris Hopwo <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">2 reviews • 0 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo" aria-label="Google Review">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">Mar 20, 2025</span>
+          </div>
+          <p class="gr-review-text">JCS Electrical was responsive, professional and on time for our appointment. The work was excellent, completed in a timely matter at the price we were quoted. We recommend them for any work you need done.</p>
+        </div>
+
+        <!-- SECOND DUPLICATED SET OF 10 FOR SEAMLESS INFINITE LOOP -->
+        <div class="google-review-card" aria-hidden="true">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-dark">DS</div>
+              <div>
+                <div class="gr-author-name">Daniel Savchik <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">Local Guide • 23 reviews • 6 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">28 weeks ago</span>
+          </div>
+          <div class="gr-review-title">Great price</div>
+          <p class="gr-review-text">Justin knocked it out of the park on my Tesla charger install. Super quick to respond, easy to communicate with, and showed up ready to get it done right. The whole process was smooth, clean work, no shortcuts, and everything looks great. You can tell he knows what he’s doing.</p>
+        </div>
+
+        <div class="google-review-card" aria-hidden="true">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-slate">A</div>
+              <div>
+                <div class="gr-author-name">Alex Murray <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">3 reviews • 0 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">39 weeks ago</span>
+          </div>
+          <div class="gr-tag-pill">Great price • $800–1,000</div>
+          <p class="gr-review-text">JCS electrical was fantastic to work with. They are super responsive, everything was completed quick and they saved me lots of money offering different solutions to my issues. I would highly recommend them and I will gladly go to them again for any work I need done in the future.</p>
+        </div>
+
+        <div class="google-review-card" aria-hidden="true">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-dark">MD</div>
+              <div>
+                <div class="gr-author-name">Manny Dunham <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">3 reviews • 0 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">46 weeks ago</span>
+          </div>
+          <div class="gr-tag-pill">Reasonable price • $2,000+</div>
+          <p class="gr-review-text">Fast reliable work. Definitely a I’ll use them again.</p>
+        </div>
+
+        <div class="google-review-card" aria-hidden="true">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-blue">L</div>
+              <div>
+                <div class="gr-author-name">Laura Davis <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">5 reviews • 0 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">49 weeks ago</span>
+          </div>
+          <p class="gr-review-text">Khalid and Malachi were awesome, professional and did a great job repairing my electrical issue !</p>
+        </div>
+
+        <div class="google-review-card" aria-hidden="true">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-green">E</div>
+              <div>
+                <div class="gr-author-name">Eddie Sanchez <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">3 reviews • 6 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">Jul 13, 2025</span>
+          </div>
+          <p class="gr-review-text">I’ve worked with JCS Electric since the early days, and the quality of their work has remained solid across every project. They’re dependable, efficient, and consistently deliver clean, professional electrical installations that meet code and hold up over time.</p>
+        </div>
+
+        <div class="google-review-card" aria-hidden="true">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-dark">AJ</div>
+              <div>
+                <div class="gr-author-name">ashish jain <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">Local Guide • 20 reviews • 0 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">Jun 6, 2025</span>
+          </div>
+          <div class="gr-tag-pill">Reasonable price</div>
+          <p class="gr-review-text">I recently call JCS to fix a switch in one of my bathroom. I was helped by Dustin who was thorough professional. He understood the problem, explained it very clearly and then properly fixed it. Whole process of scheduling, getting someone to help was very smooth. Best part is that JCS have an AI enabled automated system to answer their call which works really well.</p>
+        </div>
+
+        <div class="google-review-card" aria-hidden="true">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-purple">m</div>
+              <div>
+                <div class="gr-author-name">mike7great <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">5 reviews • 0 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">Apr 27, 2025</span>
+          </div>
+          <p class="gr-review-text">They do things neat and are very knowledgeable. They explained all their actions, so I felt confidence in their job of setting up and wiring light fixtures in a bedroom. Would recommend them to a friend.</p>
+        </div>
+
+        <div class="google-review-card" aria-hidden="true">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-slate">AO</div>
+              <div>
+                <div class="gr-author-name">Amy O'Neill <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">8 reviews • 1 photo</div>
+              </div>
+            </div>
+            <div class="gr-google-logo">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">Apr 10, 2025</span>
+          </div>
+          <p class="gr-review-text">We hired JCS Electrical to install a whole home generator after losing power for a week following the last bomb cyclone. Justin provided a comprehensive report with generator options based on our needs. He was very communicative and professional throughout the entire process and handled all the necessary permits and contractors. I would highly recommend JCS Electrical and plan to hire them again!</p>
+        </div>
+
+        <div class="google-review-card" aria-hidden="true">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-teal">D</div>
+              <div>
+                <div class="gr-author-name">Devanshu Singh <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">2 reviews • 3 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">Apr 5, 2025</span>
+          </div>
+          <p class="gr-review-text">Such a pleasant and professional experience. From now on, JCS electrical will be my go to service for my beloved home. Couldn’t entrust a better team with this responsibility.</p>
+        </div>
+
+        <div class="google-review-card" aria-hidden="true">
+          <div class="gr-header">
+            <div class="gr-author-info">
+              <div class="gr-avatar gr-avatar-magenta">C</div>
+              <div>
+                <div class="gr-author-name">Chris Hopwo <span class="gr-ext-icon">↗</span></div>
+                <div class="gr-author-subtext">2 reviews • 0 photos</div>
+              </div>
+            </div>
+            <div class="gr-google-logo">
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="gr-rating-row">
+            <div class="gr-stars">★★★★★</div>
+            <span class="gr-time">Mar 20, 2025</span>
+          </div>
+          <p class="gr-review-text">JCS Electrical was responsive, professional and on time for our appointment. The work was excellent, completed in a timely matter at the price we were quoted. We recommend them for any work you need done.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. FAQ SECTION -->
+  <section id="faq" class="container faq-section">
+    <div class="faq-header">
+      <div class="heading-tag" style="justify-content: center;">
+        <div class="heading-tag-line"></div>
+        <span class="heading-tag-text">Questions</span>
+      </div>
+      <h2 class="section-title">Frequently asked</h2>
+    </div>
+
+    <div class="faq-list">
+      <!-- FAQ 1 -->
+      <div class="faq-item is-open">
+        <div class="faq-question">
+          <span>Do you offer free consultations?</span>
+          <span class="faq-toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          We offer complimentary phone consultations to help you plan with confidence. For an in-person visit, we charge $89, which covers an energy audit, electrical inspection, needs discussion, and expert recommendations, a no-obligation way to get informed before you proceed.
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>How fast can an electrician come out?</span>
+          <span class="faq-toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          We offer same-day service for most routine jobs and 24/7 immediate dispatch for emergency repairs.
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Are your electricians licensed and insured?</span>
+          <span class="faq-toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Absolutely. Every job is handled by a fully licensed, bonded, and insured electrician (License #JCSCOCS770NC).
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>What areas do you serve?</span>
+          <span class="faq-toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          We proudly serve Pierce, King and Snohomish Counties, including White Center, Tukwila, Burien, SeaTac, Fairwood, Renton, Kent, Federal Way, Auburn, Edgewood, Fife, Tacoma, Sumner, Puyallup, Des Moines, South Center, Dash Point, Shoreline, Woodinville, Edmonds, Cottage Lake, Bellevue, Kirkland, Bothell, Seattle, Redmond, Mercer Island, Marysville, Snohomish, and Everett. Call us to confirm coverage.
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Can you install an EV charger at my home?</span>
+          <span class="faq-toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          Yes, we specialize in Level 2 home EV charger installations for Tesla, ChargePoint, JuiceBox, and all EV models.
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>What should I do during an electrical emergency?</span>
+          <span class="faq-toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          If you notice burning smells, sparks, or sudden power loss, shut off your main breaker if safe to do so, and call our 24/7 line at (425) 552-1502 immediately.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. CONTACT / LEAD FORM SECTION -->
+  <section id="contact" class="contact-section">
+    <div class="container contact-grid">
+      
+      <!-- Contact Details -->
+      <div>
+        <div class="heading-tag">
+          <div class="heading-tag-line"></div>
+          <span class="heading-tag-text">Get In Touch</span>
+        </div>
+        <h2 class="section-title" style="margin-bottom: 20px;">Get Your Free Quote</h2>
+        <p class="about-paragraph">
+          Tell us what's going on and we'll get back to you same-day with an honest, upfront estimate.
+        </p>
+        
+        <div class="contact-info-list">
+          <div>
+            <div class="info-label">Call or Text</div>
+            <a href="tel:+14255521502" class="info-value-lg">(425) 552-1502</a>
+          </div>
+          <div>
+            <div class="info-label">Hours</div>
+            <div class="info-value">Mon–Sat 7am–7pm · 24/7 Emergency Line</div>
+          </div>
+          <div>
+            <div class="info-label">Service Area</div>
+            <div class="info-value">Serving King, Snohomish &amp; Pierce Counties, WA</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lead Quote Form -->
+      <div>
+        <form class="contact-form" id="quoteForm">
+          <input type="text" required placeholder="Full Name" class="form-control">
+          <input type="tel" required placeholder="Phone Number" class="form-control">
+          <input type="email" placeholder="Email Address" class="form-control">
+          <select class="form-control">
+            <option value="">What do you need help with?</option>
+            <option>EV Charger Install</option>
+            <option>Panel Upgrades</option>
+            <option>Residential Wiring &amp; Repairs</option>
+            <option>Lighting Installation</option>
+            <option>Emergency Repairs</option>
+            <option>Generator Installation</option>
+            <option>Other Electrical Project</option>
+          </select>
+          <textarea placeholder="Tell us about the job" rows="4" class="form-control"></textarea>
+          <button type="submit" class="btn-primary" style="width: 100%;">Send My Free Quote Request</button>
+          <p style="font-size: 13px; color: #d9c95e; font-weight: 700; margin-top: 10px; text-align: center;">We respond within 1 business hour</p>
+        </form>
+
+        <!-- Form Success State -->
+        <div class="form-success-card" id="formSuccessCard">
+          <div class="avatar-initials" style="font-size: 20px; width: 44px; height: 44px;">✓</div>
+          <h3 class="section-title" style="font-size: 24px;">Request Received!</h3>
+          <p class="about-paragraph" style="margin: 0;">Thanks. We'll call you back same-day to schedule your free quote.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 10. SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="logo" style="font-size: 20px;">
+          <span class="logo-icon" style="width: 10px; height: 10px;"></span>
+          JCS ELECTRICAL
+        </div>
+        <div style="font-size: 13px; color: #94a3b8; margin-top: 6px; line-height: 1.5;">
+          13345 NE Village Square Dr.<br>
+          Woodinville, WA 98072
+        </div>
+      </div>
+      <div class="footer-copy">
+        © 2026 JCS Electrical · Licensed &amp; Insured · License #JCSCOCS770NC<br>
+        <a href="privacy-policy/" style="color:#94a3b8; margin-right: 12px; text-decoration: underline;">Privacy Policy</a>
+        <a href="terms-of-service/" style="color:#94a3b8; text-decoration: underline;">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <!-- GoHighLevel LeadConnector Chat Widget -->
+  <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6a6931dc89b8c5f4e83882a5" data-source="WEB_USER"></script>
+</body>
+</html>

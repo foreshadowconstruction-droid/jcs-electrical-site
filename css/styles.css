@@ -24,21 +24,21 @@
 
 :root {
   /* Color Palette */
-  --bg-main: oklch(16% 0.01 260);
-  --bg-card: oklch(21% 0.012 260);
-  --bg-card-hover: oklch(24% 0.014 260);
-  --bg-subtle: oklch(18% 0.01 260);
+  --bg-main: oklch(20% 0.06 255);
+  --bg-card: oklch(25% 0.06 255);
+  --bg-card-hover: oklch(28% 0.06 255);
+  --bg-subtle: oklch(22% 0.06 255);
   
   --accent-gold: oklch(84% 0.17 96);
   --accent-gold-hover: oklch(90% 0.15 96);
-  --accent-text-dark: oklch(18% 0.01 260);
+  --accent-text-dark: oklch(22% 0.06 255);
   
   --text-main: oklch(97% 0.005 260);
   --text-muted: oklch(78% 0.01 260);
   --text-dim: oklch(65% 0.01 260);
   
-  --border-color: oklch(30% 0.01 260);
-  --border-color-light: oklch(35% 0.01 260);
+  --border-color: oklch(34% 0.06 255);
+  --border-color-light: oklch(39% 0.06 255);
 
   /* Typography */
   --font-heading: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -444,7 +444,7 @@ button, input, select, textarea {
   padding-top: 36px;
   padding-bottom: 36px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   text-align: center;
 }
@@ -723,7 +723,7 @@ button, input, select, textarea {
 }
 
 .faq-question:hover {
-  background: oklch(23% 0.01 260);
+  background: oklch(27% 0.06 255);
 }
 
 .faq-icon,
@@ -856,7 +856,7 @@ textarea.form-control {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(10, 15, 25, 0.8);
+  background: rgba(8, 20, 45, 0.85);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   z-index: 99999;
@@ -1013,7 +1013,7 @@ textarea.form-control {
 }
 
 .gr-avatar-dark {
-  background: #2a2f3d;
+  background: #234170;
   color: var(--accent-gold);
   border: 1px solid var(--border-color-light);
 }
@@ -1026,8 +1026,8 @@ textarea.form-control {
   background: #0288d1;
 }
 
-.gr-avatar-green {
-  background: #2e7d32;
+.gr-avatar-indigo {
+  background: #3949ab;
 }
 
 .gr-avatar-purple {
@@ -1264,7 +1264,7 @@ textarea.form-control {
   }
 
   .stats-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px 16px;
     padding-top: 28px;
     padding-bottom: 28px;
@@ -1321,7 +1321,7 @@ textarea.form-control {
   }
 
   .stats-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

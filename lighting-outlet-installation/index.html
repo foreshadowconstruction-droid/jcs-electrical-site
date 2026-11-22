@@ -24,8 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/styles.css?v=2">
-  <link rel="stylesheet" href="../css/styles.css?v=2">
+  <link rel="stylesheet" href="../css/styles.css?v=3">
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
 
   <style>
@@ -68,7 +67,7 @@
       min-width: 380px !important;
       max-width: 380px !important;
       flex-shrink: 0 !important;
-      background: #1c1f26 !important;
+      background: #132a4d !important;
       border: 1px solid rgba(255, 255, 255, 0.1) !important;
       border-radius: 12px !important;
       padding: 24px !important;
@@ -103,10 +102,10 @@
       color: #ffffff !important;
       flex-shrink: 0 !important;
     }
-    .gr-avatar-dark { background: #2a2f3d !important; color: #d9c95e !important; border: 1px solid rgba(255, 255, 255, 0.1) !important; }
+    .gr-avatar-dark { background: #234170 !important; color: #d9c95e !important; border: 1px solid rgba(255, 255, 255, 0.1) !important; }
     .gr-avatar-slate { background: #546e7a !important; color: #ffffff !important; }
     .gr-avatar-blue { background: #0288d1 !important; color: #ffffff !important; }
-    .gr-avatar-green { background: #2e7d32 !important; color: #ffffff !important; }
+    .gr-avatar-indigo { background: #3949ab !important; color: #ffffff !important; }
     .gr-avatar-purple { background: #7b1fa2 !important; color: #ffffff !important; }
     .gr-avatar-magenta { background: #c2185b !important; color: #ffffff !important; }
     .gr-avatar-teal { background: #00796b !important; color: #ffffff !important; }
@@ -218,8 +217,8 @@
     }
 
     .lo-service-card {
-      background: oklch(20% 0.01 260);
-      border: 1px solid oklch(30% 0.01 260);
+      background: oklch(24% 0.06 255);
+      border: 1px solid oklch(34% 0.06 255);
       border-radius: 10px;
       padding: 20px 16px;
       text-align: center;
@@ -251,8 +250,8 @@
       padding: 12px 16px;
       font-size: 13px;
       color: #94a3b8;
-      background: oklch(18% 0.01 260);
-      border-top: 1px solid oklch(28% 0.01 260);
+      background: oklch(22% 0.06 255);
+      border-top: 1px solid oklch(32% 0.06 255);
       text-align: center;
       font-weight: 500;
     }
@@ -544,10 +543,6 @@
         <div class="stat-label">Average Rating</div>
       </div>
       <div>
-        <div class="stat-value">3,200+</div>
-        <div class="stat-label">Jobs Completed</div>
-      </div>
-      <div>
         <div class="stat-value">Same-Day</div>
         <div class="stat-label">Quote Response</div>
       </div>
@@ -726,7 +721,7 @@
           <span class="faq-toggle-icon">+</span>
         </div>
         <div class="faq-answer">
-          Yes, 100%. As licensed, bonded, and insured WA electrical contractors (License # JCSECEL760DM), we pull all necessary city/county electrical permits and schedule inspector sign-offs so your installation is completely safe and code-compliant.
+          Yes, 100%. As licensed, bonded, and insured WA electrical contractors (License # JCSCOCS770NC), we pull all necessary city/county electrical permits and schedule inspector sign-offs so your installation is completely safe and code-compliant.
         </div>
       </div>
     </div>
@@ -766,18 +761,7 @@
         <form class="contact-form" id="quoteForm">
           <input type="text" required placeholder="Full Name" class="form-control">
           <input type="tel" required placeholder="Phone Number" class="form-control">
-          <input type="email" placeholder="Email Address" class="form-control">
-          <select class="form-control">
-            <option value="">What do you need help with?</option>
-            <option selected>Lighting Installation</option>
-            <option>Residential Wiring &amp; Repairs</option>
-            <option>Panel Upgrades</option>
-            <option>EV Charger Install</option>
-            <option>Emergency Repairs</option>
-            <option>Generator Installation</option>
-            <option>Other Electrical Project</option>
-          </select>
-          <textarea placeholder="What are we installing? (e.g. recessed lighting in kitchen, ceiling fan in bedroom, 3 new outlets)" rows="4" class="form-control"></textarea>
+          <textarea placeholder="What do you need help with?" rows="4" class="form-control"></textarea>
           <button type="submit" class="btn-primary" style="width: 100%;">Send My Free Quote Request</button>
           <p style="font-size: 13px; color: #d9c95e; font-weight: 700; margin-top: 10px; text-align: center;">We respond within 1 business hour</p>
         </form>
@@ -824,7 +808,7 @@
         { initials: "A", cls: "gr-avatar-slate", name: "Alex Murray", meta: "3 reviews • 0 photos", time: "39 weeks ago", tag: "Great price • $800–1,000", title: null, text: "JCS electrical was fantastic to work with. They are super responsive, everything was completed quick and they saved me lots of money offering different solutions to my issues. I would highly recommend them and I will gladly go to them again for any work I need done in the future." },
         { initials: "MD", cls: "gr-avatar-dark", name: "Manny Dunham", meta: "3 reviews • 0 photos", time: "46 weeks ago", tag: "Reasonable price • $2,000+", title: null, text: "Fast reliable work. Definitely a I’ll use them again." },
         { initials: "L", cls: "gr-avatar-blue", name: "Laura Davis", meta: "5 reviews • 0 photos", time: "49 weeks ago", tag: null, title: null, text: "Khalid and Malachi were awesome, professional and did a great job repairing my electrical issue !" },
-        { initials: "E", cls: "gr-avatar-green", name: "Eddie Sanchez", meta: "3 reviews • 6 photos", time: "Jul 13, 2025", tag: null, title: null, text: "I’ve worked with JCS Electric since the early days, and the quality of their work has remained solid across every project. They’re dependable, efficient, and consistently deliver clean, professional electrical installations that meet code and hold up over time." },
+        { initials: "E", cls: "gr-avatar-indigo", name: "Eddie Sanchez", meta: "3 reviews • 6 photos", time: "Jul 13, 2025", tag: null, title: null, text: "I’ve worked with JCS Electric since the early days, and the quality of their work has remained solid across every project. They’re dependable, efficient, and consistently deliver clean, professional electrical installations that meet code and hold up over time." },
         { initials: "AJ", cls: "gr-avatar-dark", name: "ashish jain", meta: "Local Guide • 20 reviews • 0 photos", time: "Jun 6, 2025", tag: "Reasonable price", title: null, text: "I recently call JCS to fix a switch in one of my bathroom. I was helped by Dustin who was thorough professional. He understood the problem, explained it very clearly and then properly fixed it. Whole process of scheduling, getting someone to help was very smooth. Best part is that JCS have an AI enabled automated system to answer their call which works really well." },
         { initials: "AO", cls: "gr-avatar-slate", name: "Amy O'Neill", meta: "8 reviews • 1 photo", time: "Apr 10, 2025", tag: null, title: null, text: "We hired JCS Electrical to install a whole home generator after losing power for a week following the last bomb cyclone. Justin provided a comprehensive report with generator options based on our needs. He was very communicative and professional throughout the entire process and handled all the necessary permits and contractors. I would highly recommend JCS Electrical and plan to hire them again!" },
         { initials: "D", cls: "gr-avatar-teal", name: "Devanshu Singh", meta: "2 reviews • 3 photos", time: "Apr 5, 2025", tag: null, title: null, text: "Such a pleasant and professional experience. From now on, JCS electrical will be my go to service for my beloved home. Couldn’t entrust a better team with this responsibility." },

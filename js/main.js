@@ -71,18 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
               <input type="text" name="name" required placeholder="Full Name" class="form-control">
               <input type="tel" name="phone" required placeholder="Phone Number" class="form-control">
             </div>
-            <input type="email" name="email" placeholder="Email Address" class="form-control">
-            <select name="service" class="form-control">
-              <option value="">What do you need help with?</option>
-              <option value="EV Charger Install" ${evSelectedAttr}>EV Charger Install</option>
-              <option value="Panel Upgrades">Panel Upgrades</option>
-              <option value="Residential Wiring &amp; Repairs">Residential Wiring &amp; Repairs</option>
-              <option value="Lighting Installation">Lighting Installation</option>
-              <option value="Emergency Repairs">Emergency Repairs</option>
-              <option value="Generator Installation">Generator Installation</option>
-              <option value="Other Electrical Project">Other Electrical Project</option>
-            </select>
-            <textarea name="notes" placeholder="Vehicle model (e.g. Tesla Model Y, Rivian R1T) &amp; job details" rows="3" class="form-control"></textarea>
+            <textarea name="notes" placeholder="What do you need help with?" rows="3" class="form-control"></textarea>
             <button type="submit" class="btn-primary" style="width: 100%; font-size: 16px; padding: 16px; justify-content: center; cursor: pointer;">Send My Free Quote Request</button>
             <p style="font-size: 13px; color: var(--accent-gold); font-weight: 700; margin-top: 4px; text-align: center;">We respond within 1 business hour</p>
           </form>

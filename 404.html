@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Page moved | JCS Electrical</title>
+  <script>
+  // Page addresses from the previous website are sent to the closest page on this one.
+  // The site root is worked out here so this works at a domain root and in a subfolder.
+  (function () {
+    var root = '/';
+    if (/\.github\.io$/.test(location.hostname)) {
+      var first = location.pathname.split('/')[1];
+      root = first ? '/' + first + '/' : '/';
+    }
+    window.JCS_ROOT = root;
+    var rel = location.pathname.toLowerCase().slice(root.length - 1);
+    var rules = [
+      [/^\/home\/?$/, ''],
+      [/ev-|charger/, 'ev-charger-installation/'],
+      [/panel/, 'panel-upgrades/'],
+      [/generator|transfer-switch|interlock|battery|solar|services-offered/, '#services'],
+      [/light|chandelier|recessed|switch|outlet/, 'lighting-outlet-installation/'],
+      [/book-an-appointment|contact|quote/, '#contact'],
+      [/wiring|circuit|remodel|repair|knob-and-tube|240v|heat|fan|hvac|thermostat|pump|hot-tub|doorbell|automation|tenant-improvement/, 'residential-electrician/']
+    ];
+    for (var i = 0; i < rules.length; i++) {
+      if (rules[i][0].test(rel)) {
+        var target = rules[i][1];
+        var hash = target.indexOf('#');
+        var query = location.search || '';
+        location.replace(root + (hash > -1 ? target.slice(0, hash) + query + target.slice(hash) : target + query));
+        return;
+      }
+    }
+  })();
+  </script>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:#081C38;color:#F7F9FC;font:16px/1.55 system-ui,-apple-system,"Segoe UI","Helvetica Neue",Arial,sans-serif}
+    main{width:100%;max-width:440px;text-align:center}
+    .brand{margin:0 0 28px;font-weight:700;letter-spacing:.14em;font-size:14px;color:#F2B824}
+    h1{margin:0 0 12px;font-size:32px;line-height:1.15}
+    p{margin:0 0 28px;color:#C4D0E0}
+    .btn{display:flex;align-items:center;justify-content:center;min-height:54px;margin-top:12px;padding:0 20px;border-radius:6px;border:2px solid transparent;font-weight:600;text-decoration:none}
+    .gold{background:#F2B824;color:#081C38}
+    .line{border-color:#2A4A78;color:#F7F9FC}
+    :focus-visible{outline:3px solid #F2B824;outline-offset:3px}
+  </style>
+</head>
+<body>
+  <main>
+    <p class="brand">JCS ELECTRICAL</p>
+    <h1>This page has moved</h1>
+    <p>We rebuilt our website. Start from the home page, or call us.</p>
+    <a class="btn gold" id="jcs-home" href="/">Go to the home page</a>
+    <a class="btn line" href="tel:+14255521502">Call (425) 552-1502</a>
+  </main>
+  <script>document.getElementById('jcs-home').setAttribute('href', window.JCS_ROOT || '/');</script>
+</body>
+</html>
